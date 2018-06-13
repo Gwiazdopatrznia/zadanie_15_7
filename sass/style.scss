@@ -1,0 +1,26 @@
+body {
+	background-color: #359ab0;
+	color: #fff;
+	text-align: center;
+}
+.main {
+	margin: 0 auto;
+	width: 600px;
+	margin: calc(50vh - 100px) auto;
+	max-height: 200px;
+	height: 100%;
+	.counter {
+		font-size: 100px;
+		font-weight: bold;
+	}
+	.controls a {
+		color: #fff;
+		font-size: 45px;
+		padding: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		&:hover {
+			color: #d2a627;
+		}
+	}
+}
